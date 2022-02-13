@@ -1,55 +1,1905 @@
 [  
     {
-    "moevm/alg-2021-0381": 
+    "MOEVM-pull-request-sanity-checker/test_repository":
     {
-         "group_number": 3,
-         "work_labels": [ "lb",  "cw"],
-         "authorized_accounts": ["moevm-pull-requests-checker",  "owlengineer",  "TatyanaBerlenko",  "pro100kot",  "NataRazmochaeva",  "Ksenox",  "PRChecker1234"],
-         "wiki_url":  "http://se.moevm.info/doku.php/courses:programming:github_rules ",
+        "group_number": 42,
+        "work_labels": ["hw", "lb", "ts",  "cw",  "pj", "tp"],
+        "authorized_accounts": ["MOEVM-pull-request-sanity-checker"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:rules",
 
-         "main table":
+        "main table":
         {
-             "table_full_filename":  "README.md ",
-             "last_name_column_name":  "Surname",
-             "first_name_column_name":  "Name",
-             "stepik_id_column_name":  "stepik id ",
-             "work_columns_range_start": 4
+            "table_full_filename": "grades.md",
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 5
         },
 
-         "source files":
+        "source files":
         {
-             "names": [ "makefile",  "dockerfile"],
-             "extensions": [ "c",  "h",  "png",  "bmp"]
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
 
         },
 
-         "forbidden files":
+        "forbidden files":
         {
-             "names": [ "foo",  "bar"],
-             "extensions": [ "o",  "pyc ",  "exe ",  "out ",  "txt "]
+            "names": ["foo", "bar"],
+            "extensions": ["o", "mp4"]
         },
 
-         "issue labels":
+        "issue labels":
         {
-             "passed":  "Passed ",
-             "failed":  "Failed ",
-             "violated":  "Violated "
+            "passed": "Passed the structure test",
+            "failed": "Didn't pass the structure test",
+            "violated": "Violated the law"
         },
 
-         "mark labels":
+        "mark labels":
         {
-             "passed":  "+ ",
-             "failed":  "- ",
-             "not_delivered":  "? "
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
         },
 
-         "grades files info":
+        "grades files info":
         {
-             "last_name_column_name":  "last name",
-             "first_name_column_name":  "first name",
-             "grades_column_name":  "grade"
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
         }
 
+    },
+
+    "moevm/pr-2021-1384":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "TatyanaBerlenko","art32fil", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-1383":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "light5551", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-1382":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-1381":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-1303":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-1304":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+    "moevm/pr-2021-1300":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "light5551", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/cs-2021-1384":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "Nightbot1448", "TatyanaBerlenko", "HadronCollider", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["py", "c", "h"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/cs-2021-1383":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "Nightbot1448", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "HadronCollider", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["py", "c", "h"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/cs-2021-1382":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "Nightbot1448", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "HadronCollider", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["py", "c", "h"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/cs-2021-1381":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "Nightbot1448", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "HadronCollider", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["py", "c", "h"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/cs-2021-1304":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "Nightbot1448", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "HadronCollider", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["py", "c", "h"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/cs-2021-1303":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "Nightbot1448", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "HadronCollider", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["py", "c", "h"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/cs-2021-1300":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "Nightbot1448", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "HadronCollider", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["py", "c", "h"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    }
+    ,
+
+    "moevm/oop-2020-9304":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "JoolsBlinnikova", "pashamartinenko", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    }
+
+    ,
+
+    "moevm/oop-2020-9303":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "pashamartinenko", "test-stepik-auto", "pashamartinenko", "Anton2302","TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    }
+
+    ,
+
+    "moevm/oop-2020-9384":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out", "txt"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    }
+
+    ,
+
+    "moevm/pr-2021-0384":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "zhenyakoms", "TatyanaBerlenko","art32fil", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-0383":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "makometr", "zhenyakoms","TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-0382":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "zhenyakoms","TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-0381":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "TatyanaBerlenko", "zhenyakoms","pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-0303":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "Anton2302", "test-stepik-auto", "zhenyakoms","TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-0304":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "JoolsBlinnikova", "makometr", "zhenyakoms","TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    }
+
+
+
+
+
+
+    ,
+
+    "moevm/pr-2021-0384":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "TatyanaBerlenko","zhenyakoms","art32fil", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-0383":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "makometr", "zhenyakoms","TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-0382":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "zhenyakoms","TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-0381":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "zhenyakoms","TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-0303":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "Anton2302", "test-stepik-auto","zhenyakoms", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/pr-2021-0304":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "JoolsBlinnikova", "test-stepik-auto", "zhenyakoms","TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/daa-2021-9303":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "JoolsBlinnikova", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/daa-2021-9304":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "JoolsBlinnikova", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/alg-2021-0304":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "HadronCollider", "makometr", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234", "HadronCollider"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp", "py"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/alg-2021-0303":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "HadronCollider", "light5551", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234", "HadronCollider"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp", "py"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/alg-2021-0382":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "HadronCollider", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234", "light5551"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp", "py"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/alg-2021-0381":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "HadronCollider", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234", "light5551"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp", "py"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/alg-2021-0383":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "HadronCollider", "makometr", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp", "py"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
     }
 }
+
 ]
