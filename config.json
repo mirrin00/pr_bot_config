@@ -1544,11 +1544,11 @@
         }
     },
 
-    "moevm/daa-2021-9303":
+    "moevm/daa-2022-0381":
     {
         "group_number": 3,
         "work_labels": ["lb", "cw"],
-        "authorized_accounts": ["moevm-pull-requests-checker", "JoolsBlinnikova", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "PRChecker1234", "light5551"],
         "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
 
         "main table":
@@ -1595,11 +1595,62 @@
         }
     },
 
-    "moevm/daa-2021-9304":
+    "moevm/daa-2022-0382":
     {
         "group_number": 3,
         "work_labels": ["lb", "cw"],
-        "authorized_accounts": ["moevm-pull-requests-checker", "JoolsBlinnikova", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "PRChecker1234", "light5551"],
+        "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
+
+        "main table":
+        {
+            "table_full_filename": "README.md",
+            "last_name_column_name": "Surname",
+            "first_name_column_name": "Name",
+            "stepik_id_column_name": "stepik id",
+            "work_columns_range_start": 4
+        },
+
+        "source files":
+        {
+            "names": ["makefile", "dockerfile"],
+            "extensions": ["c", "h", "png", "bmp"]
+
+        },
+
+        "forbidden files":
+        {
+            "names": ["foo", "bar"],
+            "extensions": ["o", "pyc", "exe", "out"]
+        },
+
+        "issue labels":
+        {
+            "passed": "Passed",
+            "failed": "Failed",
+            "violated": "Violated"
+        },
+
+        "mark labels":
+        {
+            "passed": "+",
+            "failed": "-",
+            "not_delivered": "?"
+        },
+
+        "grades files info":
+        {
+            "last_name_column_name": "last name",
+            "first_name_column_name": "first name",
+            "grades_column_name": "grade"
+        }
+    },
+
+    "moevm/daa-2022-0383":
+    {
+        "group_number": 3,
+        "work_labels": ["lb", "cw"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "PRChecker1234", "light5551"],
         "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
 
         "main table":
