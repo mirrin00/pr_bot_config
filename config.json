@@ -260,7 +260,7 @@
     {
         "group_number": 3,
         "work_labels": ["lb", "cw"],
-        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "light5551", "PRChecker1234"],
         "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
 
         "main table":
@@ -311,7 +311,7 @@
     {
         "group_number": 3,
         "work_labels": ["lb", "cw"],
-        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "Ksenox", "PRChecker1234"],
+        "authorized_accounts": ["moevm-pull-requests-checker", "owlengineer", "test-stepik-auto", "TatyanaBerlenko", "pro100kot", "NataRazmochaeva", "krinkin", "light5551", "PRChecker1234"],
         "wiki_url": "http://se.moevm.info/doku.php/courses:programming:github_rules",
 
         "main table":
