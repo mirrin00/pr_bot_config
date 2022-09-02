@@ -122,7 +122,23 @@
                 "last_name_column_name": "last name",
                 "first_name_column_name": "first name",
                 "grades_column_name": "grade"
-            }
+            },
+
+            "moodle":
+            {
+                "course id": 47,
+                "lb1": {
+                    "lab": 2037,
+                    "defense": 2036
+                },
+                "lb2": {
+                    "lab": 2037,
+                    "defense": 2036
+                },
+                "lb3": {
+                    "lab": 2037,
+                    "defense": 2036
+                }
         },
 
         "moevm/inf-2022-23\\d\\d":
@@ -171,7 +187,23 @@
                 "last_name_column_name": "last name",
                 "first_name_column_name": "first name",
                 "grades_column_name": "grade"
-            }
+            },
+
+            "moodle":
+            {
+                "course id": 47,
+                "lb1": {
+                    "lab": 2037,
+                    "defense": 2036
+                },
+                "lb2": {
+                    "lab": 2037,
+                    "defense": 2036
+                },
+                "lb3": {
+                    "lab": 2037,
+                    "defense": 2036
+                }
         }
     },
     
