@@ -2,7 +2,6 @@
     "settings":
     {
         "check_report": false,
-        "save_moodle_results_to_table": false,
         "organization_url": "https://github.com/moevm"
     },
 
