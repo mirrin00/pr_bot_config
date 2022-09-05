@@ -59,18 +59,46 @@
 
             "moodle":
             {
-                "course id": 47,
+                "main course id": 47,
                 "lb1": {
-                    "lab": 2037,
-                    "defense": 2036
+                    "lab": {
+                        "course id": 47,
+                        "cmid": 2037
+                    },
+                    "defense": {
+                        "course id": 47,
+                        "cmid": 2036
+                    }
                 },
                 "lb2": {
-                    "lab": 2037,
-                    "defense": 2036
+                    "lab": {
+                        "course id": 47,
+                        "cmid": 2037
+                    },
+                    "defense": {
+                        "course id": 47,
+                        "cmid": 2036
+                    }
                 },
                 "lb3": {
-                    "lab": 2037,
-                    "defense": 2036
+                    "lab": {
+                        "course id": 47,
+                        "cmid": 2037
+                    },
+                    "defense": {
+                        "course id": 47,
+                        "cmid": 2036
+                    }
+                },
+                "cw": {
+                    "lab": {
+                        "course id": 47,
+                        "cmid": 2037
+                    },
+                    "defense": {
+                        "course id": 47,
+                        "cmid": 2036
+                    }
                 }
             }
         },
